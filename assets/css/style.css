@@ -1,0 +1,54 @@
+.images {
+  width: 200px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+body {
+  background-color: skyblue;
+  color: black;
+}
+
+#foodlist li {
+  font-size: 2em;
+  color: yellow;
+  margin: 10px;
+  background-color: inherit;
+  min-height: 200px;
+
+}
+
+a:visited {
+  color: green;
+  background-color: inherit;
+}
+
+.list:visited {
+  color: yellow;
+  background-color: inherit;
+}
+
+
+#title1 h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+main {
+  display: flex;
+}
+.textBox {
+  min-height: 200px;
+  max-height: 200px;
+  overflow: auto;
+
+}
+
+ul {
+  color: pink;
+}
+
+@media (max-width: 600px) {
+  body {background-color: pink}
+}
+
+/* create responsive to turn 2 columns into one for mobile */

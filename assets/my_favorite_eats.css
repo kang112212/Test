@@ -1,0 +1,40 @@
+.images {
+  width: 200px;
+  border: solid 3px black;
+  border-radius: 5px;
+}
+
+body {
+  background-color: skyblue;
+}
+
+#foodlist li {
+  font-size: 2em;
+  color: yellow;
+  margin: 10px;
+
+}
+
+#foodlist a:visited {
+  color: green;
+}
+
+#foodlist a {
+  color: yellow;
+}
+
+#title1 h1 {
+  text-align: center;
+  text-decoration: underline;
+}
+main {
+  display: flex;
+}
+.textBox {
+  min-height: 200px;
+  max-height: 200px;
+
+}
+.textBoxSmall {
+  height: 130px;
+}
